@@ -23,7 +23,7 @@ function Dashboard() {
 
     const fetchTasks = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/tasks', {
+            const response = await fetch('https://tranquiex-assignment.onrender.com/api/tasks', {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                     'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ function Dashboard() {
     const handleAddOrUpdateTask = async (taskData) => {
         try {
             const method = editingTask ? 'PUT' : 'POST';
-            const url = editingTask ? `http://localhost:5000/api/tasks/${editingTask._id}` : 'http://localhost:5000/api/tasks';
+            const url = editingTask ? `https://tranquiex-assignment.onrender.com/api/tasks/${editingTask._id}` : 'https://tranquiex-assignment.onrender.com/api/tasks';
             const response = await fetch(url, {
                 method,
                 headers: {
@@ -71,7 +71,7 @@ function Dashboard() {
 
     const handleDeleteTask = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/tasks/${id}`, {
+            const response = await fetch(`https://tranquiex-assignment.onrender.com/api/tasks/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -90,7 +90,7 @@ function Dashboard() {
     const handleToggleStatus = async (id, currentStatus, deadline) => {
         const newStatus = currentStatus === 'pending' ? 'completed' : 'pending';
         try {
-            const response = await fetch(`http://localhost:5000/api/tasks/${id}/status`, {
+            const response = await fetch(`https://tranquiex-assignment.onrender.com/api/tasks/${id}/status`, {
                 method: 'PATCH',
                 headers: {
                     'Authorization': `Bearer ${token}`,

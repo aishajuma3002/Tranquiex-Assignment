@@ -26,7 +26,7 @@ function Register() {
         }
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:5000/api/users/register', {
+            const response = await fetch('https://tranquiex-assignment.onrender.com/api/users/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, password, mobile }),
@@ -49,7 +49,7 @@ function Register() {
         setError('');
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:5000/api/users/verify-otp', {
+            const response = await fetch('https://tranquiex-assignment.onrender.com/api/users/verify-otp', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, otp }),
