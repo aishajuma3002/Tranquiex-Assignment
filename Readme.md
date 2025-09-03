@@ -44,8 +44,8 @@ Task Manager is a user-friendly platform for managing tasks efficiently. Built w
 <h2 id="structure">🗂️ Folder & File Structure</h2>
 
 <pre>
-task-manager/
-├── backend/
+TRANQIX/
+├── BACKEND/
 │   ├── config/
 │   │   └── db.js
 │   ├── controllers/
@@ -64,7 +64,7 @@ task-manager/
 │   ├── .env
 │   ├── server.js
 │   └── package.json
-├── frontend/
+├── FRONTEND/
 │   ├── src/
 │   │   ├── Components/
 │   │   │   ├── CreateTask.jsx
@@ -221,7 +221,6 @@ The backend typically runs on http://localhost:5000 (configurable in server.js).
          <div style="flex: 1 1 280px; background-color: #fff; padding: 15px; text-align: center; border: 1px solid #ddd;">
             <h3 style="color: #333; font-size: 20px; font-weight: bold; margin: 0 0 10px;">Contact Us</h3>
             <img src="https://res.cloudinary.com/dgtyqhtor/image/upload/v1756867885/Screenshot_2025-09-03_082050_fqgnfx.png" alt="Contact" style="max-width: 100%; height: auto; border: 1px solid #ddd;">
-            
         </div>
     </div>
 </div>
