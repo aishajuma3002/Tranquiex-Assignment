@@ -4,7 +4,7 @@
 <p align="center" style="font-size: 16px;">
 A modern, full-stack task management web application built with Mern Stack. The app allows users to register, log in, manage tasks (create, update, delete, mark as completed), and receive email notifications for task activities. It features a responsive, dark-themed UI with a glowing particle background effect, hover animations, and seamless navigation.
 </p>
-<li><a href="https://task-manager.netlify.app/">LIVE DEMO</a></li>
+<li><a href="https://aman-task.netlify.app/">LIVE DEMO</a></li>
 
 <hr>
 
@@ -175,8 +175,7 @@ The backend typically runs on http://localhost:5000 (configurable in server.js).
          <ul>
           <li>📱 Launch Android/iOS app</li>
            <li>📊 Task analytics dashboard with charts and insights.</li> 
-           <li>🤖 AI-powered task prioritization using Gemini API.</li> 
-           <li>🔗 Blockchain traceability</li>
+           <li>🤖 AI-powered task prioritization using Gemini API.</li>
             </ul> 
             <hr> 
             <h2 id="contact">📬 Contact Me</h2>

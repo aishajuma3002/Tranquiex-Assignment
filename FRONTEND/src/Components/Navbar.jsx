@@ -15,10 +15,10 @@ function Navbar() {
         setIsMobileMenuOpen(false);
     };
 
-    const handleMyTasks = () => {
-        navigate(isLoggedIn ? '/dashboard' : '/login');
-        setIsMobileMenuOpen(false);
-    };
+    // const handleMyTasks = () => {
+    //     navigate(isLoggedIn ? '/dashboard' : '/login');
+    //     setIsMobileMenuOpen(false);
+    // };
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -76,8 +76,8 @@ function Navbar() {
                         <Link to="/contact" className="hover:text-blue-200 transition duration-300" onClick={toggleMobileMenu} >
                             Contact
                         </Link>
-                        <button onClick={handleMyTasks}  className="text-left hover:text-blue-200 transition duration-300" > My Tasks
-                        </button>
+                        {/* <button onClick={handleMyTasks}  className="text-left hover:text-blue-200 transition duration-300" > My Tasks
+                        </button> */}
                         {isLoggedIn ? (
                             <>
                                 <Link to="/dashboard" className="hover:text-blue-200 transition duration-300" onClick={toggleMobileMenu} > Dashboard
